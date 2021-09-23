@@ -1,0 +1,412 @@
+.header{
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo{
+  display: inline-block;
+  
+}
+.header img{
+  height: 30px;
+}
+.header .menu{
+  display: inline-block;
+  margin-right: 30px;
+}
+.header .menu a{
+  color: gray;
+  text-decoration: none;
+}
+
+
+.first-view{
+  position: relative;
+  color: #b31667;
+}
+.first-view img{
+  margin: 0px 0px 0px auto;
+  display: block;
+  width: 65%;
+}
+.first-view__text{
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+.first-view__copy-en{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+.first-view__copy-jp{
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.emphasis{
+  color: #049bb0;
+}
+.first-view__company{
+  font-size: 13px;
+  line-height: 150%;
+  color: gray;
+}
+
+
+.News{
+  margin: 50px 20%;
+}
+.News__title-en{
+  font-family: 'Architects Daughter', cursive;
+  color: #b31667;
+  margin-bottom: 10px;
+}
+.News__title-jp{
+  font-size: 20px;
+  color:gray;
+  margin-bottom: 30px;
+}
+.News__content{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+}
+.News__content__headline{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: gray;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.headline__genre{
+  background: #b31667;
+  border-radius: 10px;
+  padding: 6px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.headline__genre__text{
+  color: white;
+  font-size: 12px;
+}
+
+
+.About{
+  background-color: #eeeeee;
+  padding: 50px 10%;
+}
+.About__title-en{
+  font-family: 'Architects Daughter', cursive;
+  color: #b31667;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.About__title-jp{
+  font-size: 20px;
+  color:gray;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.About__content{
+  display: flex;
+  justify-content: space-between;
+}
+.About__content__text{
+  width: 70%;
+  color: gray;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.About__content img{
+  width: 40%;
+}
+
+.Service{
+  padding: 50px 10%;
+}
+.Service__title-en{
+  font-family: 'Architects Daughter', cursive;
+  color: #b31667;
+  margin-bottom: 10px;
+}
+.Service__title-jp{
+  font-size: 20px;
+  color:gray;
+  margin-bottom: 30px;
+}
+.Service__content{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.Service1{
+  grid-column: 1/2;
+  grid-row: 1/3;
+  padding: 20px 10%;
+  background-color: #b31667;
+}
+.Service1 img{
+  width: 40%;
+}
+.Service1__img{
+  display: block;
+  margin: 0px auto;
+}
+.Service1__title{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Service1__text{
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.Service2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #b35b8b;
+}
+.Service2 img{
+  width: 40%;
+}
+.Service2__texts{
+  margin-left: 10px;
+}
+.Service2__title{
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Service2__text{
+  color: white;
+  line-height: 1.5;
+}
+.Service3{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #b2889c;
+}
+.Service3 img{
+  width: 40%;
+}
+.Service3__img{
+  display: block;
+  margin: 0px auto;
+}
+.Service3__texts{
+  margin-left: 10px;
+}
+.Service3__title{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Service3__text{
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+.Blog{
+  background-color: #eeeeee;
+  padding: 50px 10%;
+}
+.Blog__title-en{
+  font-family: 'Architects Daughter', cursive;
+  color: #b31667;
+  margin-bottom: 10px;
+}
+.Blog__title-jp{
+  font-size: 20px;
+  color:gray;
+  margin-bottom: 30px;
+}
+.Blog__content{
+  display: flex;
+  justify-content: space-between;
+}
+.Blog__page{
+  position: relative;
+  background-color: white;
+  width:30%;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.Blog__page h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #b31667;
+  padding: 15px 15px;
+  border-top-left-radius: 20px;
+}
+.Blog__page__img{
+  display: inline;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.Blog__page__texts{
+  color: gray;
+  padding: 30px 30px;
+}
+.Blog__page__text{
+  font-weight: bold;
+  margin-bottom:30px;
+}
+.Blog__page__footer{
+  display: flex;
+  justify-content: space-between;
+}
+.Blog__toList{
+  display: flex;
+  width: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #b31667;
+  background-color: white;
+  border: 3px solid #b31667;
+  border-radius: 30px;
+  padding: 15px 40px;
+  margin: 30px auto 0px auto;
+}
+
+
+.Company{
+  margin: 50px 20%;
+}
+.Company__title-en{
+  font-family: 'Architects Daughter', cursive;
+  color: #b31667;
+  margin-bottom: 10px;
+}
+.Company__title-jp{
+  font-size: 20px;
+  color:gray;
+  margin-bottom: 30px;
+}
+.Company__content table{
+  width: 100%;
+}
+.Company__content_table {
+  border-collapse: collapse;
+}
+.Company__content__table th,
+.Company__content__table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.Company__content__table th {
+  font-weight: bold;
+  color: gray;
+  background-color: #eeeeee;
+  text-align: left;
+  width: 30%;
+}
+.Company__content__table td{
+  color: gray;
+}
+
+
+.Recruit{
+  display: flex;
+  justify-content: space-around;
+}
+.Recruit__info{
+  width: 50%;
+  position: relative;
+}
+.Recruit__info img{
+  width: 100%;
+  height: auto;
+}
+.Recruit__info__text{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Recruit__interview{
+  width: 50%;
+  position: relative;
+}
+.Recruit__interview img{
+  width: 100%;
+  height: auto;
+}
+.Recruit__interview__text{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.Contact{
+  margin: 50px 0px;
+}
+.Contact__text{
+  display:flex;
+  justify-content: center;
+  color: gray;
+  margin-bottom: 20px;
+}
+.Contact__line{
+  height: 30px;
+  width: 1px;
+  border-right: 2px solid #a31657;
+  margin: auto;
+}
+.Contact__box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height:50px;
+  color: white;
+  background: linear-gradient(to right, #b2889c, #b31667);
+  box-shadow: 0px 5px #a31657;
+  border-radius: 50px;
+  text-decoration: none;
+  margin: 20px auto;
+}
+.Contact__box::before{
+  content: "";
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+.footer{
+  background-color: #eeeeee;
+  padding: 20px 0px;
+}
+.footer .copyright{
+  color: gray;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
