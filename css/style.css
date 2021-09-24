@@ -6,7 +6,6 @@
 }
 .header .logo{
   display: inline-block;
-  
 }
 .header img{
   height: 30px;
@@ -42,6 +41,7 @@
   margin-bottom: 30px;
 }
 .first-view__copy-jp{
+  font-size: 20px;
   font-weight: bolder;
   margin-bottom: 10px;
 }
@@ -50,6 +50,7 @@
 }
 .first-view__company{
   font-size: 13px;
+  font-weight: bold;
   line-height: 150%;
   color: gray;
 }
@@ -251,7 +252,7 @@
   border-radius: 20px;
   text-decoration: none;
 }
-.Blog__page h1{
+.Blog__page h3{
   position: absolute;
   top: 0;
   left: 0;
