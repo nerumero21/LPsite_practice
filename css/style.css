@@ -60,6 +60,7 @@
 }
 .News__title-en{
   font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   color: #b31667;
   margin-bottom: 10px;
 }
@@ -102,6 +103,7 @@
 }
 .About__title-en{
   font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   color: #b31667;
   text-align: center;
   margin-bottom: 10px;
@@ -131,6 +133,7 @@
 }
 .Service__title-en{
   font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   color: #b31667;
   margin-bottom: 10px;
 }
@@ -228,6 +231,7 @@
 }
 .Blog__title-en{
   font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   color: #b31667;
   margin-bottom: 10px;
 }
@@ -293,6 +297,7 @@
 }
 .Company__title-en{
   font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
   color: #b31667;
   margin-bottom: 10px;
 }
